@@ -1,0 +1,41 @@
+.venv/
+venv/
+ENV/
+node_modules/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+.env
+.env.*
+!.env.example
+
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+dist/
+build/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Vercel
+.vercel/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Python build artifacts
+*.egg-info/
+.eggs/
